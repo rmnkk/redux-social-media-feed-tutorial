@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/redux-social-media-feed-tutorial/static/css/main.09c81465.chunk.css",
+    "main.js": "/redux-social-media-feed-tutorial/static/js/main.a7f23323.chunk.js",
+    "main.js.map": "/redux-social-media-feed-tutorial/static/js/main.a7f23323.chunk.js.map",
+    "runtime-main.js": "/redux-social-media-feed-tutorial/static/js/runtime-main.470ea09b.js",
+    "runtime-main.js.map": "/redux-social-media-feed-tutorial/static/js/runtime-main.470ea09b.js.map",
+    "static/js/2.fa231d1d.chunk.js": "/redux-social-media-feed-tutorial/static/js/2.fa231d1d.chunk.js",
+    "static/js/2.fa231d1d.chunk.js.map": "/redux-social-media-feed-tutorial/static/js/2.fa231d1d.chunk.js.map",
+    "index.html": "/redux-social-media-feed-tutorial/index.html",
+    "precache-manifest.87149fa2befd2d39a10831cc2d095c7c.js": "/redux-social-media-feed-tutorial/precache-manifest.87149fa2befd2d39a10831cc2d095c7c.js",
+    "service-worker.js": "/redux-social-media-feed-tutorial/service-worker.js",
+    "static/css/main.09c81465.chunk.css.map": "/redux-social-media-feed-tutorial/static/css/main.09c81465.chunk.css.map",
+    "static/js/2.fa231d1d.chunk.js.LICENSE.txt": "/redux-social-media-feed-tutorial/static/js/2.fa231d1d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.470ea09b.js",
+    "static/js/2.fa231d1d.chunk.js",
+    "static/css/main.09c81465.chunk.css",
+    "static/js/main.a7f23323.chunk.js"
+  ]
+}
