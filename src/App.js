@@ -7,10 +7,10 @@ import {
 } from 'react-router-dom'
 
 import { Navbar } from './app/Navbar'
-import { PostList } from './features/posts/PostsList'
-import { AddPostForm } from './features/posts/AddPostForm'
-import { SinglePostPage } from './features/posts/SinglePostPage'
-import { EditPostForm } from './features/posts/EditPostForm'
+import { PostList } from './features/posts/components/PostsList'
+import { AddPostForm } from './features/posts/components/AddPostForm'
+import { SinglePostPage } from './features/posts/components/SinglePostPage'
+import { EditPostForm } from './features/posts/components/EditPostForm'
 
 function App() {
   return (
