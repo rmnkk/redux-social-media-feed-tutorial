@@ -11,13 +11,13 @@ export const EditPostForm = ({ match }) => {
     state.posts.find(post => post.id === postId)
   )
 
-  const [title, setTtile] = useState('');
-  const [content, setContent] = useState('');
+  const [title, setTitle] = useState(post.title);
+  const [content, setContent] = useState(post.content);
 
   const dispatch = useDispatch();
   const history = useHistory();
 
-  const onTitleChange = e => setTtile(e.target.value);
+  const onTitleChange = e => setTitle(e.target.value);
   const onContentChange = e => setContent(e.target.value);
 
   const onSavePostClicked = () => {
@@ -42,7 +42,7 @@ export const EditPostForm = ({ match }) => {
           type="text"
           id="postTitle"
           name="postTitle"
-          placeholder="What's on your mind"
+          placeholder="What's on your mind?"
           value={title}
           onChange={onTitleChange}
         />
@@ -55,6 +55,10 @@ export const EditPostForm = ({ match }) => {
           onChange={onContentChange}
         />
       </form>
+
+      <button type="button" onClick={onSavePostClicked}>
+        Save Post
+      </button>
     </section>
   )
 };
